@@ -4,14 +4,16 @@ using namespace std;
 int main()
 {
     int input = 0;
-    std::cout << "Please input \n";
+    cout << "Please input \n";
     cin>>input;
-    for(int i = 1;i<= input;i++) t{
+    for(int i = 1;i<= input;i++) {  //output the space
         for(int j = 0; j < input - i; j++){
-            std::cout << " ";
+            cout << " ";
         }
+        for(int k = 0; k < i; k++){ //output the * signal
+            cout << "*";
  
-        std::cout << "\n";
+        cout << "\n";
     }
 }
 
